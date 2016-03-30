@@ -13,10 +13,21 @@
         <version>1.3.3.RELEASE</version>
     </parent>
 
+
+    <!-- DM added to package as war, remove to package as spring boot exe and 
+    remove SpringBootServletInitializer from Application.java main class -->
+    <packaging>war</packaging>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- DM added to package as a war, comment out below/provided to run as spring boot exe-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

@@ -1,0 +1,10 @@
+applications:
+- path: target/gs-rest-service-0.1.0.war
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: davesSpringWS1
+  host: davesSpringWS1
+  disk_quota: 1024M
+#  services:
+#  - davesJavaLiberty1-sqldb
