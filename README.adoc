@@ -11,6 +11,7 @@ projects: [spring-framework]
 :source-highlighter: prettify
 
 This guide walks you through the process of creating a "hello world" link:/understanding/REST[RESTful web service] with Spring.
+Also see the README.md for dave's info on customisations and deploying to bluemix as a regular .war. 
 
 == What you'll build
 
